@@ -1,0 +1,21 @@
+﻿Plane.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z) в функции "public: virtual void __cdecl Plane::Draw(void)const " (?Draw@Plane@@UEBAXXZ).
+SBomber.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z).
+Tank.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z).
+Bomb.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z).
+Ground.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z).
+House.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z).
+LevelGUI.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::GotoXY(double,double)" (?GotoXY@MyTools@@YAXNN@Z).
+Plane.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::SetColor(enum MyTools::ConsoleColor)" (?SetColor@MyTools@@YAXW4ConsoleColor@1@@Z) в функции "public: virtual void __cdecl Plane::Draw(void)const " (?Draw@Plane@@UEBAXXZ).
+Tank.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::SetColor(enum MyTools::ConsoleColor)" (?SetColor@MyTools@@YAXW4ConsoleColor@1@@Z).
+Bomb.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::SetColor(enum MyTools::ConsoleColor)" (?SetColor@MyTools@@YAXW4ConsoleColor@1@@Z).
+Ground.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::SetColor(enum MyTools::ConsoleColor)" (?SetColor@MyTools@@YAXW4ConsoleColor@1@@Z).
+House.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::SetColor(enum MyTools::ConsoleColor)" (?SetColor@MyTools@@YAXW4ConsoleColor@1@@Z).
+LevelGUI.obj : error LNK2001: неразрешенный внешний символ "void __cdecl MyTools::SetColor(enum MyTools::ConsoleColor)" (?SetColor@MyTools@@YAXW4ConsoleColor@1@@Z).
+SBomber.obj : error LNK2019: ссылка на неразрешенный внешний символ "unsigned short __cdecl MyTools::GetMaxX(void)" (?GetMaxX@MyTools@@YAGXZ) в функции "public: __cdecl SBomber::SBomber(void)" (??0SBomber@@QEAA@XZ).
+SBomber.obj : error LNK2019: ссылка на неразрешенный внешний символ "unsigned short __cdecl MyTools::GetMaxY(void)" (?GetMaxY@MyTools@@YAGXZ) в функции "public: __cdecl SBomber::SBomber(void)" (??0SBomber@@QEAA@XZ).
+SBomber.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::WriteToLog(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?WriteToLog@MyTools@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции "public: __cdecl SBomber::SBomber(void)" (??0SBomber@@QEAA@XZ).
+SBomber.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::WriteToLog(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?WriteToLog@MyTools@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) в функции "public: void __cdecl SBomber::ProcessKBHit(void)" (?ProcessKBHit@SBomber@@QEAAXXZ).
+SBomberProject.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::ClrScr(void)" (?ClrScr@MyTools@@YAXXZ) в функции main.
+SBomberProject.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::OpenLogFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?OpenLogFile@MyTools@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции main.
+SBomberProject.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl MyTools::CloseLogFile(void)" (?CloseLogFile@MyTools@@YAXXZ) в функции main.
+D:\Рабочий стол\SBomberProject\x64\Debug\SBomberProject.exe : fatal error LNK1120: неразрешенных внешних элементов: 9
